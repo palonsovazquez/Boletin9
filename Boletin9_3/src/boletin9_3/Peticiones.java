@@ -132,7 +132,7 @@ public class Peticiones {
                 break;
 
             case CERO_POSITIVO:
-                if (temp <= 0) {
+                if (temp >= 0) {
                     dev = temp;
                 }
                 break;
@@ -170,7 +170,7 @@ public class Peticiones {
                     break;
 
                 case CERO_POSITIVO:
-                    if (temp <= 0) {
+                    if (temp >= 0) {
                         dev = temp;
                     }
                     break;
