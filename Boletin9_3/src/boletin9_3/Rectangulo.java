@@ -46,7 +46,7 @@ public class Rectangulo {
     }
     
     private void calcular(){
-    if(this.altura != null && this.base != null){
+    if(this.altura != null || this.base != null){
     this.area = this.base*this.altura ;
     
     
