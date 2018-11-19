@@ -15,7 +15,11 @@ public class Boletin9_5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+      Serializador serie = new Serializador(Peticiones.pedirNumIntFiltrado("cuantos de cuantos numeros se compone la serie.", Peticiones.POSITIVO));
+      serie.seriePares();
+      serie.serieAlternarNeg();
+      serie.fibonacci();
     }
     
 }
