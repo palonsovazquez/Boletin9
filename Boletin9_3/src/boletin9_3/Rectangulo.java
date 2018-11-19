@@ -9,13 +9,13 @@ package boletin9_3;
  *
  * @author palonsovazquez
  */
-public class Triangulo {
+public class Rectangulo {
     private Double base;
     private Double altura;
     private Double area;
     
 
-    public Triangulo(Double base, Double altura) {
+    public Rectangulo(Double base, Double altura) {
         this.setBase(base);
         this.setAltura(altura);
     }
@@ -47,7 +47,7 @@ public class Triangulo {
     
     private void calcular(){
     if(this.altura != null && this.base != null){
-    this.area = this.base*this.altura /2;
+    this.area = this.base*this.altura ;
     
     
     }
